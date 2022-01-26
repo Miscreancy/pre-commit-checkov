@@ -35,7 +35,7 @@ repos:
   rev: v0.0.1
   hooks:
     - id: checkov
-      args: "--quiet"
+      args: ["--quiet"]
 ```
 
 ## Contributing
