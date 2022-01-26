@@ -1,0 +1,9 @@
+- id: checkov
+  name: checkov
+  description: Checkov runner
+  entry: checkov_runner.sh
+  pass_filenames: true
+  language: script
+  require_serial: true
+  files: \.tf$
+  exclude: \.terraform\/.*$
